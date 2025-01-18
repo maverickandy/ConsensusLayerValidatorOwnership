@@ -1,4 +1,4 @@
-# Mechanism for Updating 0x00 Validator Withdrawal Credentials Without Mnemonic
+# Updating 0x00 Validator Withdrawal Credentials Without Mnemonic
 
 ## Abstract
 
