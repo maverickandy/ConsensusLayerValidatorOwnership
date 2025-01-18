@@ -1,8 +1,8 @@
-# Updating 0x00 Validator Withdrawal Credentials Without Mnemonic
+# Mechanism for Updating 0x00 Validator Withdrawal Credentials Without Mnemonic
 
 ## Abstract
 
-This document outlines a proposal to enable Ethereum validators to update their 0x00 withdrawal credentials without requiring the original mnemonic. It addresses scenarios where validators have lost their mnemonic before withdrawal credential updates were introduced. The process involves signature-based verification to confirm validator ownership and uses a network-wide hard fork to implement updates for verified cases. Additionally, the document advocates for replacing BLS signatures with quantum-resistant alternatives to secure Ethereum's long-term cryptographic integrity.
+This document outlines a proposal to enable Ethereum validators to update their 0x00 withdrawal credentials without requiring the original mnemonic. It addresses scenarios where validators have lost their mnemonic before withdrawal credential updates were introduced. The process involves signature-based verification to confirm validator ownership and uses a network-wide hard fork to implement updates for verified cases. Additionally, this mechanism follows practices outlined in the Consensus Layer Withdrawal Protection (CLWP) framework, leveraging its methodologies for ownership verification and fraud prevention. The document also advocates for replacing BLS signatures with quantum-resistant alternatives to secure Ethereum's long-term cryptographic integrity.
 
 ## Motivation
 
